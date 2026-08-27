@@ -7,5 +7,5 @@ resource "helm_release" "metrics_server" {
   version    = "3.13.1"
   chart      = "metrics-server"
   values     = [file("${path.module}/values/metrics-server.yaml")]
-  depends_on = [aws_eks_node_group.worker_nodes]
+  depends_on = [aws_eks_node_group.worker_nodes, helm_release.aws_lbc]
 }
