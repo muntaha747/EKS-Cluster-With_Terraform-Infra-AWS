@@ -3,7 +3,7 @@ locals {
   region      = "us-east-1"
   zone1       = "us-east-1a"
   zone2       = "us-east-1b"
-  eks_name    = "Project-1"
+  eks_name    = "eks-controlplane"
   eks_version = "1.36"
   iam_user    = "DevOps_Engineer"
 }
