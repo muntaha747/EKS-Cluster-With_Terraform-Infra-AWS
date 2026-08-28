@@ -1,0 +1,5 @@
+## Architecture
+
+<p align="center">
+  <img src="docs/architecture.png" alt="EKS cluster architecture on AWS" width="700">
+</p>
